@@ -1,6 +1,6 @@
 {
   "name": "Prowlarr",
-  "version": "0.11.5",
+  "version": "0.11.6",
   "slug": "prowlarr",
   "legacy": false,
   "init": false,
@@ -8,7 +8,7 @@
     "github_release": "https://github.com/linuxserver/docker-prowlarr",
     "version_regex": "(\\d+\\.\\d+\\.\\d+\\.\\d+)-(ls\\d+)"
   },
-  "description": "A fork of Sonarr to work with movies à la Couchpotato",
+  "description": "An indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps.",
   "url": "https://github.com/PrimusNZ/addon-prowlarr",
   "startup": "services",
   "arch": [
@@ -25,7 +25,6 @@
   "map": [
     "config:rw",
     "share:rw",
-    "media:rw",
     "ssl"
   ],
   "webui": "http://[HOST]:[PORT:9696]",

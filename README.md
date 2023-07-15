@@ -2,7 +2,9 @@
 
 ## About
 
-[Prowlarr](https://github.com/Prowlarr/Prowlarr) - A fork of Sonarr to work with movies à la Couchpotato.
+[Prowlarr](https://github.com/Prowlarr/Prowlarr) is an indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps.
+
+Prowlarr supports management of both Torrent Trackers and Usenet Indexers
 
 This addon is based on the [docker image](https://github.com/linuxserver/docker-prowlarr) from linuxserver.io.
 
