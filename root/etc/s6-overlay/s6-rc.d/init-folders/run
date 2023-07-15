@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+if [ ! -d /share/prowlarr/config ]; then
+  echo "Creating /share/prowlarr/config"
+  mkdir -p /share/prowlarr/config
+  chown -R abc:abc /share/prowlarr/config
+fi

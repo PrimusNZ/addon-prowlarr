@@ -1,0 +1,13 @@
+{
+    "build_from_template": {
+        "image": "linuxserver/prowlarr",
+        "version": "latest"
+    },
+    "build_from": {
+        "armhf": "linuxserver/prowlarr:arm32v7-latest",
+        "aarch64": "linuxserver/prowlarr:arm64v8-latest",
+        "amd64": "linuxserver/prowlarr:amd64-latest"
+    },
+    "squash": false,
+    "args": {}
+}
