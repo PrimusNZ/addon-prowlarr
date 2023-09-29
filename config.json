@@ -1,6 +1,6 @@
 {
   "name": "Prowlarr",
-  "version": "0.11.6",
+  "version": "0.11.7",
   "slug": "prowlarr",
   "legacy": false,
   "init": false,
